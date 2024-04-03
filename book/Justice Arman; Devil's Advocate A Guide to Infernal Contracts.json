@@ -2,8 +2,8 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "DA:GIC",
-				"abbreviation": "DA:GIC",
+				"json": "DAGIC",
+				"abbreviation": "DAGIC",
 				"full": "Devil's Advocate: A Guide to Infernal Contracts",
 				"authors": [
 					"Justice Arman"
@@ -27,7 +27,7 @@
 	"monster": [
 		{
 			"name": "Bagger",
-			"source": "DA:GIC",
+			"source": "DAGIC",
 			"page": 20,
 			"size": [
 				"M"
@@ -168,7 +168,7 @@
 		},
 		{
 			"name": "Bloodhound",
-			"source": "DA:GIC",
+			"source": "DAGIC",
 			"page": 22,
 			"size": [
 				"M"
@@ -317,7 +317,7 @@
 		},
 		{
 			"name": "Handler",
-			"source": "DA:GIC",
+			"source": "DAGIC",
 			"page": 21,
 			"size": [
 				"L"
@@ -458,7 +458,7 @@
 	"optionalfeature": [
 		{
 			"name": "Infernal Ally",
-			"source": "DA:GIC",
+			"source": "DAGIC",
 			"page": 22,
 			"featureType": [
 				"FO"
@@ -489,7 +489,7 @@
 							"entry": "varies, up to 6 days"
 						},
 						"{@i You summon an infernal ally to assist you in your time of need}.",
-						"Choose a devil from the {@table Infernal Allies|DA:GIC} table corresponding to your character level. The devil appears in an unoccupied space that you can see within range. It lasts for 6 days, 6 hours, or up to 6 minutes, depending on the strength of the chosen fiend. The devil is friendly to you and your companions. Roll initiative for the devil, which has its own turn. It does its best to obey any verbal commands that you issue it (no action required by you). If you don't issue any commands to the devil, it defends itself from hostile creatures, but otherwise takes no actions. The DM has the devil's statistics.",
+						"Choose a devil from the {@table Infernal Allies|DAGIC} table corresponding to your character level. The devil appears in an unoccupied space that you can see within range. It lasts for 6 days, 6 hours, or up to 6 minutes, depending on the strength of the chosen fiend. The devil is friendly to you and your companions. Roll initiative for the devil, which has its own turn. It does its best to obey any verbal commands that you issue it (no action required by you). If you don't issue any commands to the devil, it defends itself from hostile creatures, but otherwise takes no actions. The DM has the devil's statistics.",
 						"If summoning this devil results in your immediate death (i.e., surrendering your life as consideration), you can give your infernal ally a course of action to carry out in your absence, such as \"Seek out and destroy my enemies.\" Additionally, you can denote a living party member or NPC to which the devil reports for the remainder of the duration.",
 						"{@b {@i Elevated 1, 2, or 3.}} When you choose this offer at service tier II or higher, your sacrifice entitles you to more powerful assistance. You may choose a devil as if you were a higher level character. For example, a 10th level character who sells their soul (service tier V, infernal ally - elevated 3) may choose a devil from the Infernal Allies table as if they were 13th level."
 					]
@@ -500,7 +500,7 @@
 	"table": [
 		{
 			"name": "Contract Consideration",
-			"source": "DA:GIC",
+			"source": "DAGIC",
 			"page": 6,
 			"colLabels": [
 				"{@dice d20}",
@@ -581,7 +581,7 @@
 							"exact": 8
 						}
 					},
-					"{@b {@i Enforcement.}} You must satisfy an earlier contract by bringing a specific person to the Nine Hells whose time is up. You are accompanied by {@dice 1d4 + 1} {@creature bloodhound|DA:GIC|bloodhounds}"
+					"{@b {@i Enforcement.}} You must satisfy an earlier contract by bringing a specific person to the Nine Hells whose time is up. You are accompanied by {@dice 1d4 + 1} {@creature bloodhound|DAGIC|bloodhounds}"
 				],
 				[
 					{
@@ -695,7 +695,7 @@
 		},
 		{
 			"name": "Offers",
-			"source": "DA:GIC",
+			"source": "DAGIC",
 			"page": 9,
 			"colLabels": [
 				"Life-Years",
@@ -734,7 +734,7 @@
 					{
 						"type": "list",
 						"items": [
-							"{@optfeature Infernal Ally|DA:GIC} (see Appendix C)",
+							"{@optfeature Infernal Ally|DAGIC} (see Appendix C)",
 							"Instantly gain the benefit of a short rest",
 							"Cast {@spell raise dead} without expending material components"
 						]
@@ -756,7 +756,7 @@
 					{
 						"type": "list",
 						"items": [
-							"{@optfeature Infernal Ally|DA:GIC} - {@i elevated 1} (see Appendix C)",
+							"{@optfeature Infernal Ally|DAGIC} - {@i elevated 1} (see Appendix C)",
 							"Instantly gain the benefit of a long rest",
 							"Cast {@spell resurrection} without expending material components"
 						]
@@ -777,7 +777,7 @@
 					{
 						"type": "list",
 						"items": [
-							"{@optfeature Infernal Ally|DA:GIC} - {@i elevated 2} (see Appendix C)",
+							"{@optfeature Infernal Ally|DAGIC} - {@i elevated 2} (see Appendix C)",
 							"Your party instantly gains the benefits of a long rest",
 							"Cast {@spell true resurrection} without expending material components",
 							"Kill a fiend of CR equal to your level"
@@ -796,7 +796,7 @@
 					{
 						"type": "list",
 						"items": [
-							"{@optfeature Infernal Ally|DA:GIC} - {@i elevated 3} (see Appendix C)",
+							"{@optfeature Infernal Ally|DAGIC} - {@i elevated 3} (see Appendix C)",
 							"Undo the deaths of multiple characters or NPCs",
 							"Secret, forbidden knowledge known only to powerful mortals such as Wyrms and decrepit wizards"
 						]
@@ -818,7 +818,7 @@
 					{
 						"type": "list",
 						"items": [
-							"{@optfeature Infernal Ally|DA:GIC} - {@i elevated 3} (see Appendix C)",
+							"{@optfeature Infernal Ally|DAGIC} - {@i elevated 3} (see Appendix C)",
 							"Undo a TPK",
 							"Secret, forbidden knowledge known only to eternal beings of immense power such as gods, demon lords, and archdevils",
 							"Resurrect a creature that died within the past millennia"
@@ -839,7 +839,7 @@
 		},
 		{
 			"name": "Fine Print",
-			"source": "DA:GIC",
+			"source": "DAGIC",
 			"page": 12,
 			"colLabels": [
 				"{@dice d10}",
@@ -944,7 +944,7 @@
 		},
 		{
 			"name": "Devil Clinches",
-			"source": "DA:GIC",
+			"source": "DAGIC",
 			"page": 12,
 			"colLabels": [
 				"{@dice d6}",
@@ -1013,7 +1013,7 @@
 		},
 		{
 			"name": "Character Outlook",
-			"source": "DA:GIC",
+			"source": "DAGIC",
 			"page": 18,
 			"colLabels": [
 				"{@dice d8}",
@@ -1100,7 +1100,7 @@
 		},
 		{
 			"name": "Infernal Allies",
-			"source": "DA:GIC",
+			"source": "DAGIC",
 			"page": 23,
 			"colLabels": [
 				"Character Level",
@@ -1262,8 +1262,8 @@
 	"book": [
 		{
 			"name": "Devil's Advocate: A Guide to Infernal Contracts",
-			"id": "DA:GIC",
-			"source": "DA:GIC",
+			"id": "DAGIC",
+			"source": "DAGIC",
 			"cover": {
 				"type": "external",
 				"url": "https://raw.githubusercontent.com/cam443/JsonsDnD/master/DevilsAdvocate_Cover.png"
@@ -1328,8 +1328,8 @@
 	],
 	"bookData": [
 		{
-			"id": "DA:GIC",
-			"source": "DA:GIC",
+			"id": "DAGIC",
+			"source": "DAGIC",
 			"data": [
 				{
 					"type": "section",
@@ -1514,7 +1514,7 @@
 															"exact": 8
 														}
 													},
-													"{@b {@i Enforcement.}} You must satisfy an earlier contract by bringing a specific person to the Nine Hells whose time is up. You are accompanied by {@dice 1d4 + 1} {@creature bloodhound|DA:GIC|bloodhounds}"
+													"{@b {@i Enforcement.}} You must satisfy an earlier contract by bringing a specific person to the Nine Hells whose time is up. You are accompanied by {@dice 1d4 + 1} {@creature bloodhound|DAGIC|bloodhounds}"
 												],
 												[
 													{
@@ -1641,7 +1641,7 @@
 									"name": "Other Forms of Consideration",
 									"entries": [
 										"Successful contract administrators are always thinking two or three steps ahead. They understand that most mortals are wary of entering into a contract with a devil given their reputation. A devil is usually content to make smaller, abstract deals with less-evident ramifications.",
-										"One classic example is requiring the voice of the signee for a single hour. The deal seems innocent at first, but it poses several questions. Will your voice be taken during combat, preventing you from casting spells with verbal components? Could the devil consent to an ancient prophecy on your behalf, sealing you to some strange fate? Will your voice be used in tandem with a disguise to damage a hard-earned relationship with a crucial ally? The subtleties of consideration in nontraditional forms can bring exciting dilemmas to your table. The {@table Contract Consideration|DA:GIC} table presents a small sampling of such exchanges."
+										"One classic example is requiring the voice of the signee for a single hour. The deal seems innocent at first, but it poses several questions. Will your voice be taken during combat, preventing you from casting spells with verbal components? Could the devil consent to an ancient prophecy on your behalf, sealing you to some strange fate? Will your voice be used in tandem with a disguise to damage a hard-earned relationship with a crucial ally? The subtleties of consideration in nontraditional forms can bring exciting dilemmas to your table. The {@table Contract Consideration|DAGIC} table presents a small sampling of such exchanges."
 									]
 								}
 							]
@@ -1686,28 +1686,28 @@
 													"type": "entries",
 													"name": "Using the Offers Table",
 													"entries": [
-														"To choose an appropriate offer, start by identifying the percentage of remaining life-years that the signee is putting up for consideration. Then, locate the corresponding service tier. For example, if a signee gives up half of their remaining life span, they are entitled to service tier II. Once you have selected your service tier, work with your DM or contract administrator to choose an appropriate offer. Alternatively, you may have an offer in mind and choose to work backward. {@optfeature Infernal Ally|DA:GIC} rules are located in Appendix C."
+														"To choose an appropriate offer, start by identifying the percentage of remaining life-years that the signee is putting up for consideration. Then, locate the corresponding service tier. For example, if a signee gives up half of their remaining life span, they are entitled to service tier II. Once you have selected your service tier, work with your DM or contract administrator to choose an appropriate offer. Alternatively, you may have an offer in mind and choose to work backward. {@optfeature Infernal Ally|DAGIC} rules are located in Appendix C."
 													]
 												},
 												{
 													"type": "entries",
 													"name": "Other Forms of Consideration",
 													"entries": [
-														"If desired, the DM or the player may select a different form of consideration than years of remaining life, such as the ones outlined in the {@table Contract Consideration|DA:GIC} table. In these cases, use your best judgment to choose an appropriate service tier and offer. If the signee's consideration is the memory of a loved one, you might choose the service tier corresponding to half the life-years that they knew this person."
+														"If desired, the DM or the player may select a different form of consideration than years of remaining life, such as the ones outlined in the {@table Contract Consideration|DAGIC} table. In these cases, use your best judgment to choose an appropriate service tier and offer. If the signee's consideration is the memory of a loved one, you might choose the service tier corresponding to half the life-years that they knew this person."
 													]
 												},
 												{
 													"type": "entries",
 													"name": "Desperate vs. Confident",
 													"entries": [
-														"A signee that is making an offer in a pinch (see \"Sealing the Deal\") is said to be a desperate signee. A proactive signee who isn't in the heat of the moment is known as a confident signee. The {@table Offers|DA:GIC} table distinguishes between immediate, one-time assistance and long-lasting benefits for desperate and confident signees, respectively. However, these two distinctions are only suggestions. A signee may choose from either column when making a deal."
+														"A signee that is making an offer in a pinch (see \"Sealing the Deal\") is said to be a desperate signee. A proactive signee who isn't in the heat of the moment is known as a confident signee. The {@table Offers|DAGIC} table distinguishes between immediate, one-time assistance and long-lasting benefits for desperate and confident signees, respectively. However, these two distinctions are only suggestions. A signee may choose from either column when making a deal."
 													]
 												},
 												{
 													"type": "inset",
 													"name": "End of the Line",
 													"entries": [
-														"You may notice that there are no ongoing benefits for those who trade their life to a devil on the {@table Offers|DA:GIC} table. While it is often a heroic endeavor, giving one's life results in the immediate and final death of the signee. Spells like {@spell revivify}, {@spell raise dead}, and {@spell resurrection} are incapable of bringing a character back from such a fate. It is rumored that even a {@spell wish} spell cannot violate the rigid nature of infernal law, though this could have been fabricated by devils long ago.",
+														"You may notice that there are no ongoing benefits for those who trade their life to a devil on the {@table Offers|DAGIC} table. While it is often a heroic endeavor, giving one's life results in the immediate and final death of the signee. Spells like {@spell revivify}, {@spell raise dead}, and {@spell resurrection} are incapable of bringing a character back from such a fate. It is rumored that even a {@spell wish} spell cannot violate the rigid nature of infernal law, though this could have been fabricated by devils long ago.",
 														"This is yet another way that devils can entice mortals to forfeit their souls. By giving your life, you immediately run out of time. However, by exchanging your soul as consideration, you get to live to see another day. You can partake in all of the glory and pleasure that life has to offer - at least until collection time."
 													]
 												}
@@ -1761,7 +1761,7 @@
 													{
 														"type": "list",
 														"items": [
-															"{@optfeature Infernal Ally|DA:GIC} (see Appendix C)",
+															"{@optfeature Infernal Ally|DAGIC} (see Appendix C)",
 															"Instantly gain the benefit of a short rest",
 															"Cast {@spell raise dead} without expending material components"
 														]
@@ -1783,7 +1783,7 @@
 													{
 														"type": "list",
 														"items": [
-															"{@optfeature Infernal Ally|DA:GIC} - {@i elevated 1} (see Appendix C)",
+															"{@optfeature Infernal Ally|DAGIC} - {@i elevated 1} (see Appendix C)",
 															"Instantly gain the benefit of a long rest",
 															"Cast {@spell resurrection} without expending material components"
 														]
@@ -1804,7 +1804,7 @@
 													{
 														"type": "list",
 														"items": [
-															"{@optfeature Infernal Ally|DA:GIC} - {@i elevated 2} (see Appendix C)",
+															"{@optfeature Infernal Ally|DAGIC} - {@i elevated 2} (see Appendix C)",
 															"Your party instantly gains the benefits of a long rest",
 															"Cast {@spell true resurrection} without expending material components",
 															"Kill a fiend of CR equal to your level"
@@ -1823,7 +1823,7 @@
 													{
 														"type": "list",
 														"items": [
-															"{@optfeature Infernal Ally|DA:GIC} - {@i elevated 3} (see Appendix C)",
+															"{@optfeature Infernal Ally|DAGIC} - {@i elevated 3} (see Appendix C)",
 															"Undo the deaths of multiple characters or NPCs",
 															"Secret, forbidden knowledge known only to powerful mortals such as Wyrms and decrepit wizards"
 														]
@@ -1845,7 +1845,7 @@
 													{
 														"type": "list",
 														"items": [
-															"{@optfeature Infernal Ally|DA:GIC} - {@i elevated 3} (see Appendix C)",
+															"{@optfeature Infernal Ally|DAGIC} - {@i elevated 3} (see Appendix C)",
 															"Undo a TPK",
 															"Secret, forbidden knowledge known only to eternal beings of immense power such as gods, demon lords, and archdevils",
 															"Resurrect a creature that died within the past millennia"
@@ -2024,7 +2024,7 @@
 									"name": "Incorporating Fine Print",
 									"page": 12,
 									"entries": [
-										"Locating fine print on a physical document can be an exhilarating experience for your players. Some may become paranoid upon seeing legal jargon or infernal embellishments, while others might meticulously review each phrase contained within the document. Fine print encourages participation from the entire party, whether it's through social interaction, ability checks, or marking up a physical document. The {@table Fine Print|DA:GIC} table presents examples of fine print that may be found in an infernal contract. Remember to be cautious when incorporating fine print into a physical document. There is a thin line between the satisfying \"Ah-ha!\" moment of locating fine print and frustrating or even antagonizing a player who feels as if, the expectations weren't clear. If your players don't locate a particular string of fine print, consider saving it for a future instance where the contract is dramatically reproduced for your players. Alternatively, you may choose to ignore it entirely in the interest of preserving the moment.",
+										"Locating fine print on a physical document can be an exhilarating experience for your players. Some may become paranoid upon seeing legal jargon or infernal embellishments, while others might meticulously review each phrase contained within the document. Fine print encourages participation from the entire party, whether it's through social interaction, ability checks, or marking up a physical document. The {@table Fine Print|DAGIC} table presents examples of fine print that may be found in an infernal contract. Remember to be cautious when incorporating fine print into a physical document. There is a thin line between the satisfying \"Ah-ha!\" moment of locating fine print and frustrating or even antagonizing a player who feels as if, the expectations weren't clear. If your players don't locate a particular string of fine print, consider saving it for a future instance where the contract is dramatically reproduced for your players. Alternatively, you may choose to ignore it entirely in the interest of preserving the moment.",
 										{
 											"type": "table",
 											"caption": "Fine Print",
@@ -2152,7 +2152,7 @@
 									"name": "Sealing the Deal",
 									"page": 13,
 									"entries": [
-										"Not all contracts have signature lines. The drafter reserves the right to determine the method of the agreement once all is said and done, though this must be stated in the contract. For example, a succubus or incubus may seal their deals with a kiss rather than a pen and parchment. The {@table Devil Clinches|DA:GIC} table presents a few additional options to finalize your infernal contracts with hellish flavor.",
+										"Not all contracts have signature lines. The drafter reserves the right to determine the method of the agreement once all is said and done, though this must be stated in the contract. For example, a succubus or incubus may seal their deals with a kiss rather than a pen and parchment. The {@table Devil Clinches|DAGIC} table presents a few additional options to finalize your infernal contracts with hellish flavor.",
 										{
 											"type": "entries",
 											"name": "Signing a Contract",
@@ -2331,7 +2331,7 @@
 									"name": "Collection Agents: The Enforcers",
 									"page": 14,
 									"entries": [
-										"Collection efforts are performed on behalf of the contract administrator. They are reimbursed by either the contract administrator or a higher-ranking devil to which the contract administrator reports, such as a duke or archdevil. These barbarous task forces may involve any number of devils outlined in the {@i Monster Manual} or {@i Mordenkainen's Tome of Foes}, but most collection efforts include {@creature bagger|DA:GIC|baggers}, {@creature bloodhound|DA:GIC|bloodhounds}, and {@creature handler|DA:GIC|handlers} (see Appendix A for monster stats). Regardless of the type of devils that compose the group, these enforcers are commonly referred to as collection agents.",
+										"Collection efforts are performed on behalf of the contract administrator. They are reimbursed by either the contract administrator or a higher-ranking devil to which the contract administrator reports, such as a duke or archdevil. These barbarous task forces may involve any number of devils outlined in the {@i Monster Manual} or {@i Mordenkainen's Tome of Foes}, but most collection efforts include {@creature bagger|DAGIC|baggers}, {@creature bloodhound|DAGIC|bloodhounds}, and {@creature handler|DAGIC|handlers} (see Appendix A for monster stats). Regardless of the type of devils that compose the group, these enforcers are commonly referred to as collection agents.",
 										{
 											"type": "entries",
 											"name": "Baggers",
@@ -2622,11 +2622,11 @@
 									"items": [
 										"{@i {@b Determine the Signee.}} Is your contract more general, or do you plan to create a contract for a specific character? If you know who the contract is for, you may be able to work with the player to better tailor the contract to their character's desires. Conversely, a generic contract may contain blank sections that are filled in when it's administered.",
 										"{@i {@b Contract Administrator.}} The Difficulty Class by Level table gives suggested devil types based on average party level (APL) to extend contracts to the party. You could create your contract administrator or choose an existing devil from your campaign.",
-										"{@i {@b Consideration.}} It's easier to write a contract if you know what will be exchanged on behalf of the signee. What is the character likely to surrender? Does the contract administrator already have something in mind? Is it life-years, a soul, or something else? You can use the {@table Contract Consideration|DA:GIC} table for inspiration on other forms of payment.",
-										"{@i {@b The Offer.}} List out a few possible offers, unless you know exactly what the devil will be offering the signee. You can use the {@table Offers|DA:GIC} table to formulate an appropriate offer for different service tiers. You may want to leave this section blank in your prop.",
+										"{@i {@b Consideration.}} It's easier to write a contract if you know what will be exchanged on behalf of the signee. What is the character likely to surrender? Does the contract administrator already have something in mind? Is it life-years, a soul, or something else? You can use the {@table Contract Consideration|DAGIC} table for inspiration on other forms of payment.",
+										"{@i {@b The Offer.}} List out a few possible offers, unless you know exactly what the devil will be offering the signee. You can use the {@table Offers|DAGIC} table to formulate an appropriate offer for different service tiers. You may want to leave this section blank in your prop.",
 										"{@i {@b Fine Print.}} Decide the nature of the fine print that you will include and how the players will discover it - through ability checks, social interaction, or examining your prop contract. The Fine Print table contains some examples.",
 										"{@i {@b Supplementary Clauses.}} Will you incorporate additional clauses such as breach of contract, collateral, or nullification?",
-										"{@i {@b Agreement.}} Determine the devil's preferred method for sealing the deal. The {@table Devil Clinches|DA:GIC} table contains some examples. I recommend including a signature line for your player to sign as their character regardless of which clinch you choose.",
+										"{@i {@b Agreement.}} Determine the devil's preferred method for sealing the deal. The {@table Devil Clinches|DAGIC} table contains some examples. I recommend including a signature line for your player to sign as their character regardless of which clinch you choose.",
 										"{@i {@b Infernal Embellishments.}} The following section contains tables for additional flairs, such as devil quirks and legal phrases."
 									]
 								}
@@ -2921,9 +2921,9 @@
 							"type": "list",
 							"columns": 3,
 							"items": [
-								"{@creature Bagger|DA:GIC}",
-								"{@creature Bloodhound|DA:GIC}",
-								"{@creature Handler|DA:GIC}"
+								"{@creature Bagger|DAGIC}",
+								"{@creature Bloodhound|DAGIC}",
+								"{@creature Handler|DAGIC}"
 							]
 						}
 					]
@@ -2938,7 +2938,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/DAGIC/Symbols.png"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/DA:GIC/Symbols.png"
 							}
 						}
 					]
@@ -2952,7 +2952,7 @@
 							"type": "list",
 							"columns": 3,
 							"items": [
-								"{@optfeature Infernal Ally|DA:GIC}"
+								"{@optfeature Infernal Ally|DAGIC}"
 							]
 						}
 					]
@@ -2966,7 +2966,7 @@
 							"type": "image",
 							"href": {
 								"type": "external",
-								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/DAGIC/Devil_contract.png"
+								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/DA:GIC/Devil_contract.png"
 							}
 						}
 					]
